@@ -7,6 +7,7 @@ nav{
     gap: 30px;
     justify-content: right;
     background-color:  rgb(228, 166, 176);
+    margin-bottom: 80px;
 }
 a{
     font-size: 15px;
@@ -25,11 +26,32 @@ a:hover{
 h1{
     text-align: center;
     text-decoration: underline;
+    margin-bottom: 40px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 0;
+}
+.answers{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border: 1px black dotted;
+    background-color: antiquewhite;
+    width: 500px;
+    margin-bottom: 80px;
+    justify-content: center;
+}
+.question{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 /* question 1 */
 .main{
-    margin: 50px auto;
+    margin: 0px auto;
     display: flex;
     justify-items: center;
     flex-direction: column;
@@ -40,6 +62,7 @@ button{
     padding:20px 30px;
     border: none;
     border-radius: 10px;
+    background-color: rgb(169, 192, 206);
 }
 #btn1{
     display: block;
@@ -50,7 +73,7 @@ button{
     margin: 0 auto;
     background-color:rgb(207, 74, 65) ;
 }
-p{
+.line{
     text-align: center;
     width:150px;
     height: 20px;
@@ -65,22 +88,16 @@ div{
 }
 
 /* question 2 */
-#question2{
-    margin-top: 40px;
-}
 large{
     display: block;
     margin: 0 auto;
     font-size: 30px;
     color: tomato;
     padding: 20px 40px;
+    font-weight: bold;
 }
 
 /* question 3 */
-#question3{
-    display: block;
-    margin: 100px auto;
-}
 form{
     padding: 40px;
     display: flex;
@@ -108,23 +125,21 @@ input{
 #question2-h1{
     text-decoration: none;
 }
+.question2-h1{
+    margin: 0 auto;
+}
 
 /* question 4 */
-#question4{
-    display: block;
-    margin: 110px auto;
-    width: 450px;
-}
 #volume{
     border: none;
     display: block;
     margin: 0 auto;
     margin-bottom: 10px;
+    padding-bottom: 10px;
     font-size: 20px;
-}
+} 
 #submit-4{
     display: block;
-    margin: 10px auto;
-    margin-bottom: 0;
-    width: 100px;
+    margin: 0px auto;
+    height: auto;
 }

@@ -7,7 +7,7 @@ btn.addEventListener("click", function(e){
     const pass = document.getElementById("password").value
     if (pass==password){
         document.querySelector("#question2-h1").textContent = "Welcome, "+ document.getElementById("username").value+" !"
-        //document.querySelector("form").style.display = "none";
+        document.querySelector("form").style.display = "none";
     } else{
         alert("the password is incorrect")
     }
